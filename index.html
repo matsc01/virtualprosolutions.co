@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seboye | Virtual Assistant Services</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+
+        nav a {
+            color: white;
+            padding: 1rem;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            background-color: #4CAF50;
+        }
+
+        .container {
+            padding: 2rem;
+            max-width: 1000px;
+            margin: auto;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1, h2, h3 {
+            color: #4CAF50;
+        }
+
+        .services, .portfolio {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .service, .sample {
+            border: 1px solid #ddd;
+            padding: 1rem;
+            border-radius: 8px;
+            background-color: #fafafa;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        input, textarea {
+            margin-bottom: 1rem;
+            padding: 0.8rem;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 0.8rem;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Seboye | Certified Virtual Assistant</h1>
+        <p>Efficient, Reliable, and Professional Support for Your Business</p>
+    </header>
+
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="container">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hello! I’m Seboye from South Africa. I’m a certified Virtual Assistant through the ALX Program and hold a TEFL certificate. I specialize in administrative support, project management, and customer care. My passion lies in helping businesses stay organized, efficient, and stress-free. When I’m not assisting clients, I love [insert hobbies, e.g., reading, traveling, or exploring new cultures].</p>
+        </section>
+
+        <section id="services">
+            <h2>Services</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>Email & Calendar Management</h3>
+                    <p>Efficiently managing your inbox and scheduling meetings to keep your business organized.</p>
+                </div>
+                <div class="service">
+                    <h3>Data Entry & Research</h3>
+                    <p>Accurate data entry and thorough online research to support your business goals.</p>
+                </div>
+                <div class="service">
+                    <h3>Social Media Scheduling</h3>
+                    <p>Organizing and scheduling posts across your social media platforms for consistent engagement.</p>
+                </div>
+                <div class="service">
+                    <h3>Customer Support</h3>
+                    <p>Providing friendly and professional customer care to ensure client satisfaction.</p>
+                </div>
+                <div class="service">
+                    <h3>Project Management</h3>
+                    <p>Coordinating tasks and deadlines to ensure smooth project execution.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio">
+            <h2>Portfolio</h2>
+            <div class="portfolio">
+                <div class="sample">
+                    <h3>Email Management Sample</h3>
+                    <p>Organized inbox and scheduled meetings using Gmail and Google Calendar. <a href="#">View Sample</a></p>
+                </div>
+                <div class="sample">
+                    <h3>Data Entry & Research</h3>
+                    <p>Compiled competitor research into a clear, organized spreadsheet. <a href="#">View Sample</a></p>
+                </div>
+                <div class="sample">
+                    <h3>Social Media Content Calendar</h3>
+                    <p>Created and scheduled engaging posts for multiple platforms. <a href="#">View Sample</a></p>
+                </div>
+                <div class="sample">
+                    <h3>Customer Support Responses</h3>
+                    <p>Professional email responses for client inquiries. <a href="#">View Sample</a></p>
+                </div>
+                <div class="sample">
+                    <h3>Project Management Board</h3>
+                    <p>Managed a virtual event using Trello for task coordination. <a href="#">View Sample</a></p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form action="#">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Seboye | Virtual Assistant Services</p>
+    </footer>
+</body>
+
+</html>
